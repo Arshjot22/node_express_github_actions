@@ -24,6 +24,9 @@ app.post('/profile', (req, res) => {
 app.get('/admin', (req, res) => {
   res.send('Admin Homepage')
 })
+app.get('/admin', (req, res) => {
+  res.send('Arshjot Singh-C0860491')
+})
 
 //http://localhost:3000/user/100
 app.get("/user/:id", (req, res)=> {
